@@ -1,0 +1,180 @@
+@media screen and (max-width: 900px){
+  #top-nav{
+    display: none; 
+  }
+  #hamburger-nav{
+    display: flex; 
+  }
+}
+@media screen and (max-width: 550px){
+  .contact-inputs{
+    width: 40vh; 
+  }
+  .contact-left-title hr{
+    width: 300px; 
+  }
+  .contact-left-title h2{
+    font-size: 42px; 
+  }
+}
+@media screen and (max-width: 700px){
+  .profile-pic-container img{
+    height: 275px; 
+    width: 275px; 
+    margin-top: 3.25rem; 
+  }
+  .profile-title{
+    font-size: 2.2rem; 
+  }
+  .profile-jobs-hobbies, 
+  .typed-cursor{
+    font-size: 25px; 
+  }
+  .btn{
+    width: 5.5rem; 
+    padding: 1rem; 
+    font-size: 14px; 
+  }
+  .resume-frame{
+    height: 30rem; 
+    margin-bottom: 0; 
+  }
+  .about-pic{
+    height: 75vh; 
+    width: 50vh; 
+    margin-right: 0.75rem; 
+  }
+  .fa-envelope, .fa-about{
+    font-size: 1.5rem; 
+  }
+  .about-text{
+    font-size: 12px; 
+    margin-right: 0.75rem; 
+  }
+  .projects-container{
+    grid-template-columns: 1fr; 
+  }
+  .projects-title{
+    font-size: 1.5rem; 
+    margin-bottom: 0.25rem; 
+  }
+  .projects-description{
+    font-size: 15px; 
+  }
+}
+@media screen and (max-width: 400px){
+  .profile-pic-container img{
+    height: 225px; 
+    width: 225px; 
+    border-radius: 125px; 
+    margin-top: 5rem; 
+  }
+  #profile{
+    gap: 2.2rem; 
+  }
+  .profile-title{
+    font-size: 1.5rem; 
+  }
+  .profile-jobs-hobbies, 
+  .typed-cursor{
+    font-size: 25px; 
+  }
+  .btn{
+    width: 5rem; 
+    padding: 0.75rem; 
+    font-size: 14px; 
+  }
+  .fa-brands{
+    font-size: 1.5rem; 
+  }
+  .about-pic{
+    width: 25vh; 
+    height: 50vh; 
+  }
+  .about-title{
+    font-size: 1.5rem; 
+  }
+  .about-text{
+    font-size: 8px; 
+  }
+  .fa-about, .fa-envelope{
+    font-size: 1.25rem; 
+  }
+  .projects-container{
+    grid-template-columns: 1fr; 
+  }
+}
+@media screen and (max-width: 575px){
+  .projects-photo{
+    width: 50vh; 
+  }
+  .projects-content{
+    width: 50vh; 
+  }
+  .projects-title{
+    font-size: 1rem; 
+  }
+  .projects-description{
+    font-size: 14px; 
+  }
+}
+@media screen and (max-width: 500px){
+  .projects-photo,
+  .projects-content{
+    margin-left: -5rem; 
+  }
+}
+@media screen and (max-width: 1000px){
+  .projects-photo,
+  .projects-content{
+    width: 55vh; 
+    margin-left: -5rem; 
+  }
+  .projects-title{
+    font-size: 1.2rem; 
+    margin-bottom: 0.2rem; 
+  }
+  .projects-description{
+    font-size: 15px; 
+  }
+}
+@media screen and (max-width: 890px){
+  .projects-photo,
+  .projects-content{
+    width: 50vh; 
+    margin-left: -5rem; 
+  }
+}
+@media screen and (max-width: 850px){
+  .projects-photo,
+  .projects-content{
+    width: 45vh; 
+  }
+  .projects-container{
+    column-gap: 0; 
+  }
+  .projects-title{
+    font-size: 1rem; 
+    margin-bottom: 0.2rem; 
+  }
+  .projects-description{
+    font-size: 14px; 
+  }
+}
+@media screen and (max-width: 800px){
+  .projects-photo,
+  .projects-content{
+    width: 65vh; 
+    margin-left: 2.5rem; 
+  }
+  .projects-container{
+    grid-template-columns: 1fr; 
+  }
+  .projects-title{
+    font-size: 1.5rem; 
+    margin-bottom: 0.25rem; 
+  }
+  .projects-description{
+    font-size: 15px; 
+  }
+}

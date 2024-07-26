@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav id="top-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon">
+            <i class="fa-solid fa-circle-chevron-down" onclick="toggleMenu()"></i>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()" class="links">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu()" class="links" >About</a></li>
+            <li><a href="resume.html" onclick="toggleMenu()" class="links">Resume</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()" class="links">Contact</a></li>
+          </div>
+        </div>
+    </nav>
+    <section id="projects">
+      <div class="projects-container">
+        <div class="projects-photo-container">
+          <img src="/assets/StudySpace.png" class="projects-photo">
+          <div class="projects-content">
+            <h1 class="projects-title">Study Spaces</h1>
+            <p class="projects-description">
+              Campus room reservation working prototype that allows students, faculty, and staff
+              to easily view available rooms and book them for meetings, study sessions, and other 
+              events. Users can search, favorite buildings, and view other amentities of the buildings. 
+            </p>
+          </div>
+        </div>
+        <div class="projects-photo-container">
+          <img src="/assets/stardew.webp" class="projects-photo">
+          <div class="projects-content">
+            <h1 class="projects-title">Stardew Valley Analysis</h1>
+            <p class="projects-description" alt="Analysis of Stardew Valley">
+              Collects, cleans, and visualizes comprehensive data in relation to profits, XP, and 
+              other various metrics. Players can make informed decisions on optimal crops and fishing 
+              locations each season based off of these metrics. 
+            </p>
+          </div>
+        </div>
+        <div class="projects-photo-container">
+          <img src="/assets/shakespeare_quote.jpg" class="projects-photo">
+          <div class="projects-content">
+            <h1 class="projects-title">TS Shakespeare Classifier</h1>
+            <p class="projects-description" alt="Classifier Project">
+              Converted lyrical text data into numerical feature vectors using a TF-IDF Vectorizer. A 
+              logistical regression model was then trained on a dataset of over 450 Taylor Swift lyrics
+              and Shakespeare quotes, achieving 79.8% accuracy in distinguishing between them. 
+            </p>
+          </div>
+        </div>
+        <div class="projects-photo-container">
+          <img src="/assets/pittsburgh_neighborhoods.jpg" class="projects-photo">
+          <div class="projects-content">
+            <h1 class="projects-title">Best Family Neighborhood</h1>
+            <p class="projects-description" alt="Pittsburgh Project">
+              Assessed the rankings of Pittsburgh neighborhoods using datasets from the Western Pennsylvania 
+              Regional Data Center. It analyzed factors like number of parks, crime rates, and school enrollment
+              to provide an evaluation of the best neighborhood to live for families. 
+              </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script src="/scripts/script.js"></script>
+  </body>
+
+
+</html>

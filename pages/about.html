@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav id="top-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon">
+            <i class="fa-solid fa-circle-chevron-down" onclick="toggleMenu()"></i>
+          </div>
+          <div class="menu-links">
+            <li><a href="/pages/index.html" onclick="toggleMenu()" class="links">Home</a></li>
+            <li><a href="/pages/resume.html" onclick="toggleMenu()" class="links" >Resume</a></li>
+            <li><a href="/pages/projects.html" onclick="toggleMenu()" class="links">Projects</a></li>
+            <li><a href="/pages/contact.html" onclick="toggleMenu()" class="links">Contact</a></li>
+          </div>
+        </div>
+    </nav>
+    <section id="about">
+      <div class="about-section-container">
+          <img src="/assets/sky.jpg" alt="cool picture" class="about-pic">
+          <div class="about-details-container">
+            <div class="about-title-container">
+              <h1 class="about-title">About Me</h1>
+            </div>
+            <div class="about-text-container">
+              <p class="about-text">
+                Hello! My name is Alivia and I am an undergraduate student studying Data Science at 
+                the University of Pittsburgh in Pittsburgh, PA with minors in Computer Science and 
+                Business. I have a strong passion for leveraging data and technology to solve complex problems. 
+                I am particularly interested in applying data science techniques in the finance and tech industries. 
+                <br> <br>
+                During my time at Pitt, I have developed a diverse skill set in Data Structures and Algorithms,
+                 Statistics, Data Analysis and Visulzation, and Linear Algebra. I am actively involved in the Women
+                in Computer Science Club (WiCS), the Computer Science Club (CsC), and the League of Emerging
+                Analytics Professionals (LEAP). I also enjoy watching the Pittsburgh Steelers and New York
+                Rangers, playing guitar, and listening to music. I am excited to continue exploring
+                the fields of Data Science and Computer Science and am eager to apply my knowledge and skills 
+                in a professional setting. 
+                <br> <br> 
+                Please feel free to connect with me on LinkedIn or email me! I am always open to discussing
+                data science and computer science, sharing knowledge, exploring projects and new opportunities. 
+              </p>
+            </div>
+            <div class="about-contact-container">
+              <i class="fa-brands fa-linkedin fa-about" alt="My LinkedIn"
+              onclick="location.href='https://www.linkedin.com/in/aliviamissimer/'"></i>
+              <i class="fa-regular fa-envelope" alt="Email me"
+              onclick="location.href='mailto:alivia.missimer04@gmail.com'"></i>
+            </div>
+          </div>
+      </div>
+    </section>
+    <script src="/scripts/script.js"></script>
+  </body>
+
+
+</html>

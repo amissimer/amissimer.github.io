@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav id="top-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon">
+            <i class="fa-solid fa-circle-chevron-down" onclick="toggleMenu()"></i>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()" class="links">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu()" class="links">About</a></li>
+            <li><a href="resume.html" onclick="toggleMenu()" class="links" >Resume</a></li>
+            <li><a href="projects.html" onclick="toggleMenu()" class="links">Projects</a></li>
+          </div>
+        </div>
+    </nav>
+    <section id="contact">
+      <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <div class="contact-left-title">
+            <h2>Get In Touch</h2>
+            <hr>
+          </div>
+          <input type="hidden" name="access_key" value="45c27d68-9882-4c8d-8956-c308068086b7">
+          <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+          <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+          <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+          <button type="submit" class="contact-left-button">Submit <i class="fa-solid fa-arrow-right contact-arrow"></i></button>
+        </form>
+        <div class="contact-right">
+          <img src="">
+        </div>
+      </div>
+    </section>
+
+    <script src="/scripts/script.js"></script>
+  </body>
+
+
+</html>
